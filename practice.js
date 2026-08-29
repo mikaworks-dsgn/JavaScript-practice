@@ -75,3 +75,21 @@ console.log(
     (pastDay.getMonth() + 1) + "月" +
     pastDay.getDate() + "日です。"
 )
+
+let myThings = {
+    sports:"サッカー",
+    hobby:"テーブルトークRPG",
+    food:"カレーライス",
+}
+
+console.log(myThings.food)
+console.log(myThings["food"])
+
+let foods = {
+    japanese_food:"寿司",
+    italian_food:"ピザ"
+}
+
+let suffix = "_food"
+console.log(foods["japanese" + suffix])
+console.log(foods["italian" + suffix])
